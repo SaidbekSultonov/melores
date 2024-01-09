@@ -1,0 +1,184 @@
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'message' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 48
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'chat' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 49
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'id' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 49
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'text' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 50
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'chat' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 51
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'first_name' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 51
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'message_id' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 52
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'chat' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 53
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Trying to get property 'username' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 53
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Undefined variable: start in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 106
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Warning:  pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 8:     WHERE qs.chat_id = '' AND u.type != 1
+                               ^ in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 187
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 189
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Warning:  pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 8:     WHERE qs.chat_id = '' AND u.type = 1
+                               ^ in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 204
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 205
+[09-Jan-2024 11:28:02 Asia/Tashkent] PHP Notice:  Undefined variable: type in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 341
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 205
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 205
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 205
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: chat_id in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 251
+[09-Jan-2024 06:28:02 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: SELECT * FROM orginal_step WHERE chat_id = 
+                                                   ^ in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 252
+[09-Jan-2024 06:28:02 UTC] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 253
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: chat_id in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 261
+[09-Jan-2024 06:28:02 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: SELECT * FROM orginal_last_id WHERE chat_id = 
+                                                      ^ in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 262
+[09-Jan-2024 06:28:02 UTC] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 263
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:28:02 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  relation &quot;question_answer&quot; does not exist
+LINE 1: SELECT * FROM question_answer WHERE lang = 0
+                      ^ in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 291
+[09-Jan-2024 06:28:02 UTC] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 292
+[09-Jan-2024 06:28:02 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  relation &quot;step_id&quot; does not exist
+LINE 1: SELECT * FROM step_id WHERE lang = 0
+                      ^ in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 304
+[09-Jan-2024 06:28:02 UTC] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 305
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 318
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 356
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 380
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 619
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 665
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 760
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 854
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 862
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 871
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 970
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1067
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1199
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1430
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1544
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1757
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1765
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1774
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1801
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2170
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2243
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2292
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2341
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2779
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2880
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2982
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3082
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3183
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3203
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3358
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3459
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3560
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3611
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3713
+[09-Jan-2024 06:28:02 UTC] PHP Notice:  Undefined variable: chat_id in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3899
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 205
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 205
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 205
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: chat_id in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 251
+[09-Jan-2024 06:29:01 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: SELECT * FROM orginal_step WHERE chat_id = 
+                                                   ^ in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 252
+[09-Jan-2024 06:29:01 UTC] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 253
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: chat_id in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 261
+[09-Jan-2024 06:29:01 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: SELECT * FROM orginal_last_id WHERE chat_id = 
+                                                      ^ in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 262
+[09-Jan-2024 06:29:01 UTC] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 263
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 277
+[09-Jan-2024 06:29:01 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  relation &quot;question_answer&quot; does not exist
+LINE 1: SELECT * FROM question_answer WHERE lang = 0
+                      ^ in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 291
+[09-Jan-2024 06:29:01 UTC] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 292
+[09-Jan-2024 06:29:01 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  relation &quot;step_id&quot; does not exist
+LINE 1: SELECT * FROM step_id WHERE lang = 0
+                      ^ in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 304
+[09-Jan-2024 06:29:01 UTC] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 305
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 318
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 356
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 380
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 619
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 665
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 760
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 854
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 862
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 871
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 970
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1067
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1199
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1430
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1544
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1757
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1765
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1774
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 1801
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2170
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2243
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: data in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2292
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2341
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2779
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2880
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 2982
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3082
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3183
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3203
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3358
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3459
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3560
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3611
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: text in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3713
+[09-Jan-2024 06:29:01 UTC] PHP Notice:  Undefined variable: chat_id in /home/vkoenlqd/app.original-mebel.ru/original_bot.php on line 3899
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'message' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 48
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'chat' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 49
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'id' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 49
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'text' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 50
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'chat' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 51
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'first_name' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 51
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'message_id' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 52
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'chat' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 53
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Trying to get property 'username' of non-object in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 53
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Undefined variable: start in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 106
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Warning:  pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 8:     WHERE qs.chat_id = '' AND u.type != 1
+                               ^ in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 187
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 189
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Warning:  pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 8:     WHERE qs.chat_id = '' AND u.type = 1
+                               ^ in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 204
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Warning:  pg_num_rows() expects parameter 1 to be resource, boolean given in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 205
+[09-Jan-2024 11:29:01 Asia/Tashkent] PHP Notice:  Undefined variable: type in /home/vkoenlqd/app.original-mebel.ru/meetup_bot.php on line 341

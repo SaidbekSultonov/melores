@@ -1,0 +1,332 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.plus-xom{
+    margin-top: 4px !important;
+}
+.summary{
+    display: none !important;
+}
+#used-units{
+  text-align: center;
+}
+.d-flex-order{
+    display: flex;
+}
+.w-150{
+    max-width: 150px !important;
+}
+.minus_count, .plus_count{
+    cursor: pointer;
+}
+.minus_count:hover{
+    background: #ccc !important;
+}
+.plus_count:hover{
+    background: #ccc !important;
+}
+.null_count, .null_price{
+    display: none;
+}
+.red_block1{
+    color: red;
+    display: none;
+}
+.red_block2{
+    color: red;
+    display: none;
+}
+
+
+
+
+/*----------------------------*/
+#sections{
+    height: 90vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+
+.board {
+    user-select: none;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+
+}
+
+.taskColumn {
+    flex: 1 1 auto;
+    margin-bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 10;
+    min-height: 50px;
+    max-height: 75vh;
+
+}
+.main_column{
+    width: 272px;
+    margin: 0 4px;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    overflow:hidden;
+    position: relative;
+}
+.fa-comment-o{
+    font-size: 1.3rem !important;
+    color: grey;
+}
+.num{
+    font-size: 1.3rem !important;
+    color: grey;
+}
+
+.taskDiv {
+    background-color: #f1f1f1;
+    margin: 2px 6px 4px 6px;
+    min-height: 50px;
+    border-radius: 2px;
+    font-size: 16px;
+    white-space: normal;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s;
+    padding-bottom: 5px;
+}
+.taskDiv div{
+    padding: 10px;
+}
+.taskDiv:hover {
+    background: #f9f9f9;
+}
+
+.colHdr {
+    top: 0;
+    line-height: 1.8rem;
+    position: relative;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+
+.dragOver {
+    border: 1px dotted #ccc;
+}
+
+.taskDivTopMargin {
+    margin-top: 20px;
+}
+.button{
+    width: 100%;
+    align-self: flex-end;
+    background: #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    color:#fff;
+    cursor: pointer;
+    transition: .3s;
+    display: block;
+}
+
+.button:hover{
+    background: grey;
+    color:#fff;
+}
+
+#add_column{
+    padding: 5px 10px;
+}
+#add_column .fa-close{
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+#add_column:hover{
+    background: #f2f2f2;
+}
+
+
+.add_column_input{
+    border-radius: 3px !important;
+    margin-bottom: 5px;
+    display: none !important;
+}
+.add_column_input2{
+    border-radius: 3px !important;
+    margin-bottom: 5px;
+}
+
+.add_column_button{
+    line-height: 34px;
+    display: block;
+    height: 100%;
+    cursor: pointer;
+}
+.add_column_button i{
+    margin-right: 10px;
+}
+
+.add_column_save{
+    display: none;
+    align-items: center;
+}
+
+.select_block{
+    display: none;
+}
+.my-0{
+    margin: 3px 0 !important;
+}
+
+
+
+.grey{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey !important;
+}
+.d-flex-jcc-aic{
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    position: relative;
+}
+.little_text{
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
+
+
+/*----------------------------*/
